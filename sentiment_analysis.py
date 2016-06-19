@@ -174,7 +174,7 @@ def main():
         sse = computeSumSquaredErrors(reviews,words)
         
         print ('A soma do quadrado dos erros é: {0}'.format(sse))
-        ex = input()
+        ex = input('Pressione enter para finalizar.')
 
 if __name__ == '__main__':
     main()
